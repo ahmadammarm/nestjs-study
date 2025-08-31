@@ -12,7 +12,7 @@ export class AppController {
     getHello(): string {
         return this.appService.getHello();
     }
-
+    
     @Post()
     createHello(): string {
         return this.appService.postHello();
